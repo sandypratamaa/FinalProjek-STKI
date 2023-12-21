@@ -7,7 +7,7 @@ model_fraud = pickle.load(open('model_fraud.sav','rb'))
 
 tfidf = TfidfVectorizer
 
-loaded_vec = TfidfVectorizer(decode_error="replace", vocabulary=set(pickle.load(open("kbest_feature.sav", "rb"))))
+loaded_vec = TfidfVectorizer(decode_error="replace", vocabulary=set(pickle.load(open("new_selected_feature_tf-idf.sav", "rb"))))
 
 
 # judul halaman
