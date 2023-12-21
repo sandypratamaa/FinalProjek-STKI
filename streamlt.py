@@ -24,7 +24,7 @@ if st.button('Hasil Deteksi'):
         fraud_detection = 'SMS Normal'
         
     elif (predict_fraud == 1):
-        fraud_detection = 'SMS Fraud'
+        fraud_detection = 'SMS Spam'
         
     else :
         fraud_detection = 'SMS Promo'
