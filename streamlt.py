@@ -3,7 +3,7 @@ import streamlit as st
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # load save model
-model_fraud = pickle.load(open('model_spam_tfidf_nb.model','rb'))
+model_fraud = pickle.load(open('model_spam_tfidf_nb.sav','rb'))
 
 tfidf = TfidfVectorizer
 
