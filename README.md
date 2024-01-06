@@ -6,17 +6,29 @@
 
 **Langkah-langkah penyelesaian kasus klasifikasi SMS spam meliputi**:  
 Data Acquisition
+
 Exploratory Data Analysis (EDA)
+
 Pre-processing
+
 Case Folding
+
 Filtering
+
 Stopword
+
 Stemming
+
 Feature Engineering
+
 Feature Extraction - TF IDF
+
 Feature Selection - Chi-Square
+
 Modelling (Machine Learning)
+
 Prediction
+
 Model Evaluation 
 
 
